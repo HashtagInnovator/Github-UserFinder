@@ -1,0 +1,36 @@
+body {
+    background: rgba(215, 223, 224, 0.759);
+}
+
+.container {
+    margin-top: 5rem;
+    /* Adjusted margin-top for better centering */
+}
+
+div.search-bar {
+    margin: 0 auto;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.679);
+    max-width: 50rem;
+    /* Changed width to max-width for responsiveness */
+    padding: 1rem;
+    /* Added padding for better spacing */
+    margin: 0 auto;
+    border-radius: 12px;
+    color: white;
+}
+
+#avatar {
+    width: 100%;
+    height: auto;
+    /* Changed height to auto for maintaining aspect ratio */
+    border-radius: 50%;
+    /* Changed border-radius to 50% for circular shape */
+    margin: 10px auto;
+}
+
+span {
+    font-size: 16px !important;
+}
